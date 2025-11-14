@@ -2,33 +2,22 @@
 //  ContentView.swift
 //  Marble
 //
-//  Created on 2025-11-14.
+//  Created by OpenAI Assistant on 2025-11-14.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var appModel: AppModel
+
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 20) {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                
-                Text("Welcome to Marble")
-                    .font(.title)
-                    .fontWeight(.bold)
-                
-                Text("A modern iOS Swift app")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-            }
-            .padding()
-            .navigationTitle("Marble")
-        }
+        NewsletterFeedView()
     }
 }
 
 #Preview {
-    ContentView()
+    let appModel = AppModel()
+    return ContentView()
+        .environmentObject(appModel)
+        .environmentObject(appModel.newsletterStore)
 }
