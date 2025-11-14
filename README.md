@@ -29,7 +29,7 @@ Marble/
 
 - Xcode 15.0 or later
 - iOS 17.0 or later
-- Swift 5.0 or later
+- Swift 5.9 (language mode 5.0)
 
 ## Getting Started
 
