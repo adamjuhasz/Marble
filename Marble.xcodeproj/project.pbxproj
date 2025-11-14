@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A000001000000001A000001 /* MarbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000002000000001A000002 /* MarbleApp.swift */; };
-		1A000003000000001A000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000004000000001A000004 /* ContentView.swift */; };
-		1A000005000000001A000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000006000000001A000006 /* Assets.xcassets */; };
-		1A000007000000001A000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000008000000001A000008 /* Preview Assets.xcassets */; };
+                1A000001000000001A000001 /* MarbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000002000000001A000002 /* MarbleApp.swift */; };
+                1A000003000000001A000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000004000000001A000004 /* ContentView.swift */; };
+                1A000005000000001A000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000006000000001A000006 /* Assets.xcassets */; };
+                1A000007000000001A000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000008000000001A000008 /* Preview Assets.xcassets */; };
+                9716C62A67D8447DB67E929D /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE1C58BADC49C5BA46D69B /* AppModel.swift */; };
+                66276DB399D94CD5880C1610 /* ConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AB213377F48C1A6518DFB /* ConfigurationStore.swift */; };
+                85E5E51EDBC441A391E2AF90 /* GmailConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5D63B40B2467BB7B62FDA /* GmailConfiguration.swift */; };
+                CE31B8FBFF804CEFA73A8B0E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3262E4DC0436E940BD7DF /* Models.swift */; };
+                2FE68E31AE5F46E291087003 /* NewsletterCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8277BCE814B299D60099A /* NewsletterCache.swift */; };
+                A5A5E16EA4834482A4575592 /* GmailClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4469F71ED449099EFC5F9 /* GmailClient.swift */; };
+                C550B7BFA2E045619129DC99 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B277F93DCD4A18A3F3189D /* OpenAIClient.swift */; };
+                048A3F6F015841B5ACD5299E /* NewsletterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789D2793D5E41A9A8D58154 /* NewsletterStore.swift */; };
+                C395EBAD0BE54516A5496443 /* NewsletterFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09094FD8A8D440E8281A7E4 /* NewsletterFeedView.swift */; };
+                61A793147C784786B70A35EF /* NewsletterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB661C446AF24BF0B45A0405 /* NewsletterDetailView.swift */; };
+                4D3BF8D466F54C17B73E04BD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286545B2DB224D8CA477D9C5 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A000009000000001A000009 /* Marble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marble.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A000002000000001A000002 /* MarbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleApp.swift; sourceTree = "<group>"; };
-		1A000004000000001A000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A000006000000001A000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A000008000000001A000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+                1A000009000000001A000009 /* Marble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+                1A000002000000001A000002 /* MarbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleApp.swift; sourceTree = "<group>"; };
+                1A000004000000001A000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+                1A000006000000001A000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+                1A000008000000001A000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+                A4AE1C58BADC49C5BA46D69B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+                FA7AB213377F48C1A6518DFB /* ConfigurationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationStore.swift; sourceTree = "<group>"; };
+                84D5D63B40B2467BB7B62FDA /* GmailConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailConfiguration.swift; sourceTree = "<group>"; };
+                99A3262E4DC0436E940BD7DF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+                86C8277BCE814B299D60099A /* NewsletterCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterCache.swift; sourceTree = "<group>"; };
+                2EC4469F71ED449099EFC5F9 /* GmailClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailClient.swift; sourceTree = "<group>"; };
+                90B277F93DCD4A18A3F3189D /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
+                1789D2793D5E41A9A8D58154 /* NewsletterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterStore.swift; sourceTree = "<group>"; };
+                D09094FD8A8D440E8281A7E4 /* NewsletterFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterFeedView.swift; sourceTree = "<group>"; };
+                FB661C446AF24BF0B45A0405 /* NewsletterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterDetailView.swift; sourceTree = "<group>"; };
+                286545B2DB224D8CA477D9C5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,16 +62,27 @@
 			);
 			sourceTree = "<group>";
 		};
-		1A00000C000000001A00000C /* Marble */ = {
-			isa = PBXGroup;
-			children = (
-				1A000002000000001A000002 /* MarbleApp.swift */,
-				1A000004000000001A000004 /* ContentView.swift */,
-				1A000006000000001A000006 /* Assets.xcassets */,
-				1A00000E000000001A00000E /* Preview Content */,
-			);
-			path = Marble;
-			sourceTree = "<group>";
+                1A00000C000000001A00000C /* Marble */ = {
+                        isa = PBXGroup;
+                        children = (
+                                1A000002000000001A000002 /* MarbleApp.swift */,
+                                1A000004000000001A000004 /* ContentView.swift */,
+                                A4AE1C58BADC49C5BA46D69B /* AppModel.swift */,
+                                FA7AB213377F48C1A6518DFB /* ConfigurationStore.swift */,
+                                84D5D63B40B2467BB7B62FDA /* GmailConfiguration.swift */,
+                                2EC4469F71ED449099EFC5F9 /* GmailClient.swift */,
+                                90B277F93DCD4A18A3F3189D /* OpenAIClient.swift */,
+                                1789D2793D5E41A9A8D58154 /* NewsletterStore.swift */,
+                                99A3262E4DC0436E940BD7DF /* Models.swift */,
+                                86C8277BCE814B299D60099A /* NewsletterCache.swift */,
+                                D09094FD8A8D440E8281A7E4 /* NewsletterFeedView.swift */,
+                                FB661C446AF24BF0B45A0405 /* NewsletterDetailView.swift */,
+                                286545B2DB224D8CA477D9C5 /* SettingsView.swift */,
+                                1A000006000000001A000006 /* Assets.xcassets */,
+                                1A00000E000000001A00000E /* Preview Content */,
+                        );
+                        path = Marble;
+                        sourceTree = "<group>";
 		};
 		1A00000D000000001A00000D /* Products */ = {
 			isa = PBXGroup;
@@ -133,15 +166,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A000011000000001A000011 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A000003000000001A000003 /* ContentView.swift in Sources */,
-				1A000001000000001A000001 /* MarbleApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+                1A000011000000001A000011 /* Sources */ = {
+                        isa = PBXSourcesBuildPhase;
+                        buildActionMask = 2147483647;
+                        files = (
+                                9716C62A67D8447DB67E929D /* AppModel.swift in Sources */,
+                                66276DB399D94CD5880C1610 /* ConfigurationStore.swift in Sources */,
+                                1A000003000000001A000003 /* ContentView.swift in Sources */,
+                                2FE68E31AE5F46E291087003 /* NewsletterCache.swift in Sources */,
+                                85E5E51EDBC441A391E2AF90 /* GmailConfiguration.swift in Sources */,
+                                1A000001000000001A000001 /* MarbleApp.swift in Sources */,
+                                C395EBAD0BE54516A5496443 /* NewsletterFeedView.swift in Sources */,
+                                C550B7BFA2E045619129DC99 /* OpenAIClient.swift in Sources */,
+                                4D3BF8D466F54C17B73E04BD /* SettingsView.swift in Sources */,
+                                A5A5E16EA4834482A4575592 /* GmailClient.swift in Sources */,
+                                CE31B8FBFF804CEFA73A8B0E /* Models.swift in Sources */,
+                                61A793147C784786B70A35EF /* NewsletterDetailView.swift in Sources */,
+                                048A3F6F015841B5ACD5299E /* NewsletterStore.swift in Sources */,
+                        );
+                        runOnlyForDeploymentPostprocessing = 0;
+                };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -286,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marble.app;
+                            PRODUCT_BUNDLE_IDENTIFIER = com.ajuhasz.marble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marble.app;
+                            PRODUCT_BUNDLE_IDENTIFIER = com.ajuhasz.marble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
